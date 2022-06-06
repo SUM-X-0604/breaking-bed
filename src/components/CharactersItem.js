@@ -5,7 +5,7 @@ const CharactersItem = ({ item }) => {
         <section className='cursor-pointer bg-transparent '>
             <div className='w-[100%] h-[100%] transition duration-150 cursor-pointer'>
                 <img src={item.img} alt="" />
-                <p className='flex items-center justify-center'>{item.name}</p>
+                <p className='py-2 flex items-center justify-center'>{item.name}</p>
             </div>
         </section>
     )
